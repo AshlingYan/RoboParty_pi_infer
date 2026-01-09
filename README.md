@@ -114,13 +114,3 @@ python control_your_robot/example/deploy/piper_deploy_pi05_ygx.py \
   --max-queue-size 50 \  # 最大存储队列动作
   --task "There are three blocks on the table, the color of the blocks is red, green and blue. Stack blue on green, green on red."
 ```
-
-### 🚀 特殊版：RTC推理（重点！！！）
-```bash
-# RTC测试模式（只输出不执行）
-python control_your_robot/example/deploy/piper_deploy_pi05_ygx.py \
-  --remote-ws 127.0.0.1:8005 \
-  --dry-run \
-  --auto-start \
-  --task "There are three blocks on the table, the color of the blocks is red, green and blue. Stack blue on green, green on red."
-```
