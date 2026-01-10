@@ -63,7 +63,7 @@ source ./.venv/bin/activate
 # pi05_ygx（路径2）
 CUDA_VISIBLE_DEVICES=2 uv run scripts/serve_policy.py --port 8005 policy:checkpoint \
   --policy.config pi05_ygx \
-  --policy.dir /data0/syy_data/RoboParty_pi_train/openpi/checkpoints/pi05_ygx/piper_ygx/20000
+  --policy.dir /data0/syy_data/RoboParty_pi_modified/RoboParty_pi_train/openpi/checkpoints/pi05_ygx/stack_blocks_three_merged/20000
 ```
 
 ---
