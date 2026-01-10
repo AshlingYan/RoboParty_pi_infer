@@ -30,9 +30,8 @@ bash /home/shiyanyan/RoboParty_pi_infer/control_your_robot/piper_sdk/piper_sdk/c
 python /home/shiyanyan/RoboParty_pi_infer/control_your_robot/piper_sdk/piper_sdk/demo/V2/piper_ctrl_go_zero.py
 ```
 
-### 🎨 机械臂画圆（原文小修正）
+### 🎨 机械臂画圆
 ```bash
-# 这里替换成画圆的正确脚本哦～如果和归零脚本一样，可备注：“画圆脚本待补充”
 python /home/shiyanyan/RoboParty_pi_infer/control_your_robot/piper_sdk/piper_sdk/demo/V2/piper_ctrl_moveC.py
 ```
 
