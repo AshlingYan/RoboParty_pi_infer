@@ -103,6 +103,14 @@ python control_your_robot/example/deploy/piper_deploy_pi05_ygx.py \
   --auto-start \
   --task "There are three blocks on the table, the color of the blocks is red, green and blue. Stack blue on green, green on red."
 ```
+```bash
+示例：
+python control_your_robot/example/deploy/piper_deploy_pi05_ygx.py \
+  --remote-ws 127.0.0.1:8005 \
+  --max-step 100 \
+  --max-queue-size 50 \
+  --task "There are three blocks on the table, the color of the blocks is red, green and blue. Stack blue on green, green on red."
+```
 
 ### 🚗 模式2：执行Action（实际控制机械臂）
 ```bash
